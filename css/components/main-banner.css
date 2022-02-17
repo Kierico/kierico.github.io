@@ -1,0 +1,25 @@
+.main-banner {
+    background-image: url(../../assets/img/photo-familia.jpg);
+    background-repeat: no-repeat;    /* a imagem não se repetir. */
+    background-size: 100%;    /* a imagem ocupar 100% da largura da tela. */
+    height: 797px;
+    border-bottom: 10px solid #000000;
+    padding-top: 115px;
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+
+.main-banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.main-banner .main-box {
+    margin-bottom: 40px;
+}
+
+.main-banner .navigation {
+    display: flex;
+    justify-content: space-evenly;
+}

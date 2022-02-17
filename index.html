@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiérico Souza</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img id="logo" src="assets/img/icon1-kierico.png" alt="Avatar do Kiérico">
+        <nav>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="" lang="en">Download CV</a>
+        </nav>
+    </header>
+
+    <section class="main-banner">
+        <div class="wrapper"> <!-- Wrapper = envolver -->
+            <div class="main-box">
+                <h1 class="main-title">Kiérico Souza</h1> <!-- duas palavras na classe = componente. -->
+                <h2 class="main-subtitle" lang="en">FrontEnd Developer</h2> <!-- uma palavra na classe = elemento. -->
+            </div>
+            <div class="navigation">
+                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-button" href="">Contatos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-section">
+        <h2 class="main-title -second">Skills</h2>
+
+    <!--<dl class="skill-tec"> --Description List = lista de forma descritiva algo. Podendo ser colocado só duas tags como filhas direta.
+            <dd class="icon"> --Define Description.
+                <img src="assets/img/icon_html5.png" alt="">
+            </dd>
+
+            <dt class="title">HTML</dt> --Description Title.
+
+            --Emmet = <dd>progress.progress-bar[max=100 value=70]{70%}
+            <dd>
+                <progress class="progress-bar" max="100" value="70">70%</progress>
+            </dd>
+        </dl>-->
+
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/icon_html5.png" alt="Logo do HTML5 em pixel art.">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/icon_css3.png" alt="Logo do CSS3 em pixel art.">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/icon_js.png" alt="Logo do JavaScript em pixel art.">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <section class="main-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-card">
+            <a href="https://codepen.io/kierico" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/codepen.png" alt="Logo codepen">
+                </figure>
+            </a>
+            <a href="https://github.com/Kierico" target="_blank">
+                <figure class="card-project -blue">
+                    <img class="logo" src="assets/img/github.png" alt="Logo github">
+                </figure>
+            </a>
+            <a href="#">
+                <figure class="card-project -red">
+                    <img class="logo" src="assets/img/icon-kierico-rosto.png" alt="Logo Kiérico">
+                    <figcaption></figcaption>
+                </figure>
+            </a>
+        </div>
+    </section>
+
+    <p class="main-description">
+        Hoje, estudante de Ciência da Computação, entrou na área como desenvolvedor Web e gosta de ir descobrindo seu caminho conforme o percorre. Kiérico também tem uma crescente presença em UX e Front-end, quando não está estudando ou trocando ideias com amigos.
+    </p>
+
+</body>
+
+</html>
+<!-- 
+    Logo
+    Skills
+    Projetos
+    Sobre
+    Contatos
+    Download CV
+
+    -estudar RSCSS-
+
+    1st » first
+    2nd » second
+    3rd » third
+    4th » fourth
+    5th » fifth
+    6th » sixth
+    7th » seventh
+    8th » eighth
+    9th » ninth
+    10th » tenth
+ -->
