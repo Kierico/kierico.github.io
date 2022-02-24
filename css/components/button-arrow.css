@@ -1,0 +1,28 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+/* pseudo elemento - seta */
+.button-arrow::before {
+    content: "";
+    /* criando seta com 'bordas'. */
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    /* background-color: white; */
+    /* border-top: 20px solid black; */
+    /* border-right: 20px solid blue; */
+    /* border-bottom:20px solid green; */
+    border: 15px solid transparent;
+    border-left: 28px solid white;
+    transform: translateX(5px);
+}
