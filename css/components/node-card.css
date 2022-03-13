@@ -1,0 +1,46 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 40px;
+    height: 0px;
+    border-top: 3.5px dashed black;
+    transform: rotate(90deg) translateX(-75%);
+    bottom: 140px;
+    /* transform-origin: center left; */
+}
+
+.node-card .title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #F25A70;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CEB02A;
+    /* z-index: 0; */
+}
+
+.node-card .logo img {
+    /* max-width: 100%; */
+    max-height: 100%;
+}
+
+.node-card .logo.-bgPink {
+    background-color: #F25A70;
+}

@@ -31,3 +31,7 @@
     border-left: 28px solid white;
     transform: translateX(5px);
 }
+
+.button-arrow.-left::before {
+    transform: rotate(180deg) translate(12px);
+}
