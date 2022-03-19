@@ -41,6 +41,10 @@
     max-height: 100%;
 }
 
-.node-card .logo.-bgPink {
+.node-card.-clean .logo {
+    padding: 0;
+}
+
+.node-card.-first .logo {
     background-color: #F25A70;
 }

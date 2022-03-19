@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 </head>
 
 <body>
@@ -110,7 +111,6 @@
                 </div>
             </article>
         </div>
-
     </section>
 
     <section class="main-section -bgBlack -bdFirst" id="projects">
@@ -140,26 +140,46 @@
         <p class="main-description">
             Hoje, estudante de Ciência da Computação, entrou na área como desenvolvedor Web e gosta de ir descobrindo seu caminho conforme o percorre. Kiérico também tem uma crescente presença em UX e Front-end, quando não está estudando ou trocando ideias com amigos.
         </p>
-        <button class="button-arrow -left"><span class="content">Avançar</span></button>
-        <figure class="node-card">
-            <figcaption class="title">Origin</figcaption>
-            <div class="logo -bgPink">
-                <img src="assets/img/icon-kierico-rosto.png" alt="Logo Kiérico">
-            </div>
-        </figure>
-        <figure class="node-card">
-            <figcaption class="title">2020</figcaption>
-            <div class="logo">
-                <img src="assets/img/github.png" alt="Logo Github">
-            </div>
-        </figure>
-        <figure class="node-card">
-            <figcaption class="title">2021</figcaption>
-            <div class="logo">
-                <img src="assets/img/codepen.png" alt="Logo Codepen">
-            </div>
-        </figure>
-        <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <figure class="node-card -first">
+                <figcaption class="title">Origin</figcaption>
+                <div class="logo">
+                    <img src="assets/img/icon-kierico-rosto.png" alt="Logo Kiérico">
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2020</figcaption>
+                <div class="logo">
+                    <img src="assets/img/github.png" alt="Logo Github">
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2021</figcaption>
+                <div class="logo">
+                    <img src="assets/img/codepen.png" alt="Logo Codepen">
+                </div>
+            </figure>
+            <figure class="node-card -first">
+                <figcaption class="title">20..</figcaption>
+                <div class="logo">
+                    <img width="auto" height="140px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xOSwxM2ExLDEsMCwwLDAtMSwxdi4zOWwtMS40OC0xLjQ4YTIuNzcsMi43NywwLDAsMC0zLjkzLDBsLS43LjdMOS40MSwxMS4xMmEyLjg2LDIuODYsMCwwLDAtMy45MywwTDQsMTIuNlY3QTEsMSwwLDAsMSw1LDZoOGExLDEsMCwwLDAsMC0ySDVBMywzLDAsMCwwLDIsN1YxOWEzLDMsMCwwLDAsMywzSDE3YTMsMywwLDAsMCwzLTNWMTRBMSwxLDAsMCwwLDE5LDEzWk01LDIwYTEsMSwwLDAsMS0xLTFWMTUuNDNsMi45LTIuOWEuNzkuNzksMCwwLDEsMS4wOSwwbDMuMTcsMy4xNywwLDBMMTUuNDUsMjBabTEzLTFhMSwxLDAsMCwxLS4xOC41M0wxMy4zMSwxNWwuNy0uN2EuNzguNzgsMCwwLDEsMS4xLDBMMTgsMTcuMjJaTTE5LDJhMywzLDAsMCwwLTIuNiwxLjUsMSwxLDAsMCwwLC4zNywxLjM3LDEsMSwwLDAsMCwxLjM2LS4zN0ExLDEsMCwwLDEsMjAsNWExLDEsMCwwLDEtMSwxLDEsMSwwLDAsMCwwLDIsMywzLDAsMCwwLDAtNlptLjM4LDcuMDhBMSwxLDAsMCwwLDE4LjgsOWwtLjE4LjA2LS4xOC4wOS0uMTUuMTNBMSwxLDAsMCwwLDE4LDEwYTEsMSwwLDAsMCwuMjkuNzEsMSwxLDAsMCwwLDEuNDIsMEExLDEsMCwwLDAsMjAsMTBhMSwxLDAsMCwwLS42Mi0uOTJaIiBmaWxsPSIjNjU2M2ZmIi8+PC9zdmc+" alt="Logo Codepen">
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">20..</figcaption>
+                <div class="logo">
+                    <img width="auto" height="140px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xOSwxM2ExLDEsMCwwLDAtMSwxdi4zOWwtMS40OC0xLjQ4YTIuNzcsMi43NywwLDAsMC0zLjkzLDBsLS43LjdMOS40MSwxMS4xMmEyLjg2LDIuODYsMCwwLDAtMy45MywwTDQsMTIuNlY3QTEsMSwwLDAsMSw1LDZoOGExLDEsMCwwLDAsMC0ySDVBMywzLDAsMCwwLDIsN1YxOWEzLDMsMCwwLDAsMywzSDE3YTMsMywwLDAsMCwzLTNWMTRBMSwxLDAsMCwwLDE5LDEzWk01LDIwYTEsMSwwLDAsMS0xLTFWMTUuNDNsMi45LTIuOWEuNzkuNzksMCwwLDEsMS4wOSwwbDMuMTcsMy4xNywwLDBMMTUuNDUsMjBabTEzLTFhMSwxLDAsMCwxLS4xOC41M0wxMy4zMSwxNWwuNy0uN2EuNzguNzgsMCwwLDEsMS4xLDBMMTgsMTcuMjJaTTE5LDJhMywzLDAsMCwwLTIuNiwxLjUsMSwxLDAsMCwwLC4zNywxLjM3LDEsMSwwLDAsMCwxLjM2LS4zN0ExLDEsMCwwLDEsMjAsNWExLDEsMCwwLDEtMSwxLDEsMSwwLDAsMCwwLDIsMywzLDAsMCwwLDAtNlptLjM4LDcuMDhBMSwxLDAsMCwwLDE4LjgsOWwtLjE4LjA2LS4xOC4wOS0uMTUuMTNBMSwxLDAsMCwwLDE4LDEwYTEsMSwwLDAsMCwuMjkuNzEsMSwxLDAsMCwwLDEuNDIsMEExLDEsMCwwLDAsMjAsMTBhMSwxLDAsMCwwLS42Mi0uOTJaIiBmaWxsPSIjNjU2M2ZmIi8+PC9zdmc+" alt="Logo Codepen">
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">20..</figcaption>
+                <div class="logo">
+                    <img width="auto" height="140px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xOSwxM2ExLDEsMCwwLDAtMSwxdi4zOWwtMS40OC0xLjQ4YTIuNzcsMi43NywwLDAsMC0zLjkzLDBsLS43LjdMOS40MSwxMS4xMmEyLjg2LDIuODYsMCwwLDAtMy45MywwTDQsMTIuNlY3QTEsMSwwLDAsMSw1LDZoOGExLDEsMCwwLDAsMC0ySDVBMywzLDAsMCwwLDIsN1YxOWEzLDMsMCwwLDAsMywzSDE3YTMsMywwLDAsMCwzLTNWMTRBMSwxLDAsMCwwLDE5LDEzWk01LDIwYTEsMSwwLDAsMS0xLTFWMTUuNDNsMi45LTIuOWEuNzkuNzksMCwwLDEsMS4wOSwwbDMuMTcsMy4xNywwLDBMMTUuNDUsMjBabTEzLTFhMSwxLDAsMCwxLS4xOC41M0wxMy4zMSwxNWwuNy0uN2EuNzguNzgsMCwwLDEsMS4xLDBMMTgsMTcuMjJaTTE5LDJhMywzLDAsMCwwLTIuNiwxLjUsMSwxLDAsMCwwLC4zNywxLjM3LDEsMSwwLDAsMCwxLjM2LS4zN0ExLDEsMCwwLDEsMjAsNWExLDEsMCwwLDEtMSwxLDEsMSwwLDAsMCwwLDIsMywzLDAsMCwwLDAtNlptLjM4LDcuMDhBMSwxLDAsMCwwLDE4LjgsOWwtLjE4LjA2LS4xOC4wOS0uMTUuMTNBMSwxLDAsMCwwLDE4LDEwYTEsMSwwLDAsMCwuMjkuNzEsMSwxLDAsMCwwLDEuNDIsMEExLDEsMCwwLDAsMjAsMTBhMSwxLDAsMCwwLS42Mi0uOTJaIiBmaWxsPSIjNjU2M2ZmIi8+PC9zdmc+" alt="Logo Codepen">
+                </div>
+            </figure>
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
     </section>
 
 </body>
