@@ -11,7 +11,7 @@
     box-sizing: border-box;
     width: 40px;
     height: 0px;
-    border-top: 3.5px dashed black;
+    border-top: 4px dashed black;
     transform: rotate(90deg) translateX(-75%);
     bottom: 140px;
     /* transform-origin: center left; */
@@ -22,7 +22,7 @@
     font-size: 25px;
     font-weight: 400;
     color: #F25A70;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .node-card .logo {

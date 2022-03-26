@@ -1,12 +1,26 @@
 .main-carousel {
     position: relative;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 85px;
+    padding-right: 85px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-carousel::after {
+    content: "";
+    height: 5px;
+    background-color: black;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 31px;
 }
 
 .main-carousel .button-arrow {
     position: absolute;
-    bottom: 70px;
+    bottom: 55px;
     /* transform: translateY(50%); */
 }
 
