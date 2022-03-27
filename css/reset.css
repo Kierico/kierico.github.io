@@ -1,5 +1,7 @@
 body {
     font-family: "Fira Code", sans-serif;
+    position: relative;
+    top: 89px;
 }
 
 body, h1, h2, h3, figure {
