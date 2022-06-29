@@ -1,9 +1,8 @@
 /** Objetos de links sociais */
 const linksSocialMedia = {
     github: "kierico",
-    youtube: "kiericograndao",
-    facebook: "lojaprincesalu",
-    instagram: "princesalu.loja"
+    youtube: "channel/UC_3NbcRFu1InGaV_cLTfF8w",
+    twitter: "kierico_dev"
 }
 
 /** Consumindo API do Github */
